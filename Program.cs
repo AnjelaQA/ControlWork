@@ -12,3 +12,10 @@ void FormulatingArrayResult(string[] array1, string[] array2)
     }
 }
 
+void PrintArrayResult (string[] array){
+    for(int i = 0; i < array.Length; i++)
+    {
+        Console.Write($"{array[i]} ");
+    }
+    Console.WriteLine();
+}
