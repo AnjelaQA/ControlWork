@@ -23,3 +23,6 @@ void PrintArrayResult (string[] array){
 String[] arrayStart = new string[5] {"Hello", "2", "world", ":-)", "45"};
 String[] arrayResult = new string[arrayStart.Length];
 
+FormulatingArrayResult(arrayStart,arrayResult);
+PrintArrayResult(arrayResult);
+
