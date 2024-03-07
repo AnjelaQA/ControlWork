@@ -19,3 +19,7 @@ void PrintArrayResult (string[] array){
     }
     Console.WriteLine();
 }
+// String[] arrayStart = new string[5] {"123", "andhfajs", "gsg", "1sdf", "12"};
+String[] arrayStart = new string[5] {"Hello", "2", "world", ":-)", "45"};
+String[] arrayResult = new string[arrayStart.Length];
+
